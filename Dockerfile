@@ -2,7 +2,7 @@
 FROM php:latest
 
 # Copy the PHP app files to the container
-COPY . /var/www/html
+COPY /src /var/www/html
 
 # Expose port 80 for web traffic
 EXPOSE 80
